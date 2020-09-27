@@ -51,3 +51,4 @@ def getFscore(K, confusion_matrix):
     microF1score = microF1score / all_
 
     return macroF1score
+#

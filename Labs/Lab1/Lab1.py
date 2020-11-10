@@ -13,7 +13,7 @@ def minmax(dataset):
         if i == len(dataset[0]) - 1:
             continue
         value_min = dataset[:, i].min()
-        value_max = dataset[:, i].max()
+        value_max = dataset[:, i].max_()
         minmax.append([value_min, value_max])
     return minmax
 
